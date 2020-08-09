@@ -1,9 +1,15 @@
 <template>
+  <Topnav />
   <router-view />
 </template>
 
-<script>
+<script lang="ts">
+import Topnav from "./components/Topnav.vue";
+
 export default {
   name: "App",
+  components: {
+    Topnav,
+  },
 };
 </script>
