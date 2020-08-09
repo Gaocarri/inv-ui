@@ -1,6 +1,6 @@
 <template>
   <div class="content">
-    <aside>
+    <aside v-if="menuVisible">
       <h2>组件列表</h2>
       <ol>
         <li>
@@ -21,8 +21,16 @@
   </div>
 </template>
 
-<script>
-export default {};
+<script lang="ts">
+import { inject, Ref } from "vue";
+export default {
+  setup() {
+    const menuVisible = inject<Ref<boolean>>("xxx");
+    return {
+      menuVisible,
+    };
+  },
+};
 </script>
 
 <style lang="scss" scoped>
