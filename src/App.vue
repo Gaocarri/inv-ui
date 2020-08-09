@@ -3,8 +3,6 @@
 </template>
 
 <script>
-import Carri from "./components/Carri.vue";
-
 export default {
   name: "App",
 };
