@@ -1,110 +1,14 @@
 <template>
-<div>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-    <p>Switch 的文档</p>
-</div>
+<Switch />
 </template>
 
 <script>
-export default {};
+import Switch from "../lib/Switch.vue";
+export default {
+    components: {
+        Switch,
+    },
+};
 </script>
 
 <style>
