@@ -29,6 +29,3 @@ export const router = createRouter({
         }
     ]
 })
-router.afterEach(() => {
-    console.log('luyou')
-})
